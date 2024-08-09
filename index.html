@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,59 +9,69 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+
     <div class="side-section">
         <div class="logo">
-            
+
         </div>
     </div>
 
     <div class="main-content">
         <div class="top-section">
-            <p>This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams.<br>Sign up <i>now</i> to get started<br><br>You <i>know</i> you want to.</i></p>
+            <p>This is not a real online service! You know you need something like this in your life to help you realise
+                your deepest dreams.<br>Sign up <i>now</i> to get started<br><br>You <i>know</i> you want to.</i></p>
         </div>
 
         <form action="" method="">
-            <h2>Let's do this!</h2>
+            <p>Let's do this!</p>
             <div class="form-container">
-                
+
 
                 <div class="input-container">
                     <label for="f-name">First Name</label>
-                    <input type="text" name="f-name" id="f-name" placeholder="First name">
+                    <input type="text" name="f-name" id="f-name" required>
                 </div>
 
                 <div class="input-container">
                     <label for="l-name">Last Name</label>
-                    <input type="text" name="l-name" id="l-name" placeholder="Last name">
+                    <input type="text" name="l-name" id="l-name" required>
                 </div>
 
                 <div class="input-container">
                     <label for="email">email</label>
-                    <input type="email" name="email" id="email" placeholder="email">
+                    <input type="email" name="email" id="email" required>
                 </div>
 
                 <div class="input-container">
                     <label for="phone">Phone Number</label>
-                    <input type="tel" name="phone" id="phone" placeholder="Phone Number">
+                    <input type="tel" name="phone" id="phone" min="7" required>
                 </div>
 
                 <div class="input-container">
                     <label for="phone">Password</label>
-                    <input type="password" name="password" id="password" placeholder="Password">
+                    <input type="password" name="password" id="password" min="6" required>
                 </div>
                 <div class="input-container">
                     <label for="phone">Confirm Password</label>
-                    <input type="password" name="password-confirm" id="password-confirm" placeholder="Confirm Password">
+                    <input type="password" name="password-confirm" id="password-confirm" min="6" required>
                 </div>
 
-                <div class="button-container">
-                    <button type="submit" class="submit">Sign Up</button>
-                </div>
+                <button type="submit" class="submit">Create Account</button>
             </div>
         </form>
+
+        <div class="bottom-section">
+            <div class="button-container">
+                
+            </div>
+            <p class="alt-log-in">Already have an account? <a href="#">Log in</a></p>
+        </div>
+
+
     </div>
 
 </body>
+
 </html>
