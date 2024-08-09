@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.side-section {
+    display:flex;
+    background-image: url(images/matthew-brodeur-DH_u2aV3nGM-unsplash.jpg);
+    background-size: cover;
+    flex-direction: column;
+    width: 66%;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main-content {
+    overflow: hidden;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #fafafa;
+    padding-left: 2em;
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+
+.top-section > p {
+    line-height: 1.25;
+    padding-right: 8em;
+}
+
+form > h2 {
+    margin-top:0.5em;
+    margin-left:2em;
+    margin-bottom:0.8em;
+}
+
+form {
+    padding-right: 8em;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #fff;
+    padding-left: 2em;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 1em;
+    padding-right:2.5em;
+
+}
+
+input {
+    border: 1px solid #d1d1d1;
+    border-radius: 2px;
+    outline:none;
+}
+
+form label {
+    font-size: 0.5em;
+    text-transform: uppercase;
+    position:absolute;
+    top: -6px;
+}
